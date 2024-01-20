@@ -2,13 +2,34 @@ body {
     margin: 0;
 }
 
-
+/* Header stuff */
 .top {
     background-color: #1f2937;
     color: white;
-    
+    padding: 0 100px;
 }
 
 .header {
     display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
 }
+
+nav {
+    display: flex;
+    gap: 25px;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+/* hero stuff */
