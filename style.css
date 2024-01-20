@@ -162,3 +162,10 @@ blockquote {
 
 
 /* footer stuff */
+.footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    padding: 20px 0;
+}
