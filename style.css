@@ -96,10 +96,28 @@ h2 {
 }
 
 
-
-
-
 /* quote stuff */
 .quote {
+    display: flex;
+    justify-content: center;
     background-color: #e5e7eb;
+    padding: 100px 0;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+blockquote + span {
+    align-self: flex-end;
+    padding: 15px 40px 0 0;
+    font-weight: bold;
+}
+
+blockquote {
+    font-size: 30px;
+    font-style: italic;
+    color: #1f2937;
 }
